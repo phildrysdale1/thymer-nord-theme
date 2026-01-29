@@ -1,5 +1,5 @@
-# thymer-dracula-theme
-Dark and Light theme for the Thymer app based on the [Dracula theme](https://github.com/dracula/dracula-theme)
+# thymer-nord-theme
+Dark and Light theme for the Thymer app based on the [Nord Theme](https://github.com/nordtheme/nord)
 
 If you add any areas I've missed please do submit a PR or tag me in the Discord themes channel and I'll add the changes :)
 
