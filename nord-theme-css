@@ -142,9 +142,12 @@ html[data-theme="basic-dark-nord"] {
     /* 9. Quotes & Code - Dark Containers         */
     /* ------------------------------------------- */
     --ed-quote-border-color: #8FBCBB;
-
-    --ed-code-border: transparent;
-    --ed-code-bg: rgba(59, 66, 82, 0.4);
+    
+    --ed-container-border-color: rgba(76, 86, 106, 0.25);  /* #4C566A */
+    --ed-container-bg-color:     rgba(216, 222, 233, 0.08); /* #D8DEE9 */
+    
+    --ed-code-bg:                rgba(76, 86, 106, 0.25);  /* #4C566A */
+    --ed-code-border:            rgba(216, 222, 233, 0.08); /* #D8DEE9 */
 
     /* Inline code */
     .lineitem-code {
@@ -229,7 +232,7 @@ html[data-theme="basic-dark-nord"] {
 /* ------------------------------------------- */
 /* Nord Classic - Arctic Light                 */
 /* ------------------------------------------- */
-html[data-theme="basic-white-nord"] {
+html[data-theme="basic-light-nord"] {
     color-scheme: light;
 
     /* ------------------------------------------- */
@@ -357,8 +360,11 @@ html[data-theme="basic-white-nord"] {
     /* ------------------------------------------- */
     --ed-quote-border-color: #81A1C1;
 
-    --ed-code-border: transparent;
-    --ed-code-bg: rgba(216, 222, 233, 0.3);
+    --ed-container-border-color: rgba(216, 222, 233, 0.25); /* #D8DEE9 */
+    --ed-container-bg-color:     rgba(76, 86, 106, 0.08);   /* #4C566A */
+    
+    --ed-code-bg:                rgba(216, 222, 233, 0.25); /* #D8DEE9 */
+    --ed-code-border:            rgba(76, 86, 106, 0.08);   /* #4C566A */
 
     /* Inline code */
     .lineitem-code {
